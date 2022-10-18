@@ -1,0 +1,11 @@
+.title {
+  flex-direction: row;
+  display: flex;
+  padding: 5px 0px;
+  justify-content: center;
+}
+
+.icon {
+    height: 20px;
+}
+

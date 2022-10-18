@@ -1,0 +1,3 @@
+export const ADD_CHARACTER = "ADD_CHARACTER";
+export const SET_ACTIVE_CHAR_ID = "SET_ACTIVE_CHAR_ID";
+export const SET_SPRITE_ANGLE = "SET_SPRITE_ANGLE";
