@@ -1,7 +1,7 @@
 import React from "react";
-import Sidebar from "./components/Sidebar";
-import MidArea from "./components/MidArea";
-import PreviewArea from "./components/PreviewArea";
+import Sidebar from "./Components/Sidebar";
+import MidArea from "./Components/MidArea";
+import PreviewArea from "./Components/PreviewArea";
 
 export default function App() {
   return (

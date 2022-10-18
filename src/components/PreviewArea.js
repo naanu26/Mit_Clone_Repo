@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
 import Select from "@mui/material/Select";
 import { connect } from "react-redux";
@@ -29,7 +28,6 @@ const PreviewArea = ({
     pos4 = 0;
 
   let elmnt = null;
-  let elmntMsg = null;
 
   function dragMouseDown(e, id) {
     elmnt = document.getElementById(id);
