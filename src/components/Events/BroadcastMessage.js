@@ -4,7 +4,7 @@ import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import CloseIcon from '@mui/icons-material/Close';
 
-const BroadcastMessage = ({ comp_id }) => {
+const BroadCastMessage = ({ comp_id }) => {
   const [message, setMessage] = useState("");
   const [open, setOpen] = useState(false);
 
@@ -71,4 +71,4 @@ const BroadcastMessage = ({ comp_id }) => {
   );
 };
 
-export default BroadcastMessage;
+export default BroadCastMessage;

@@ -2,7 +2,7 @@ import React from "react";
 import Icon from "./Icon";
 import ShowMessage from "./Looks/ShowMessage";
 import HideSprite from "./Looks/HideSprite";
-import BroadcastMessage from "./Events/BroadCastMessage";
+import BroadCastMessage from "./Events/BroadCastMessage";
 import TurnClockwise from "./Motion/TurnClockwise";
 import TurnAntiClockWise from "./Motion/TurnAntiClockWise";
 import ShowMessageTimer from "./Looks/ShowMessageTimer";
@@ -37,7 +37,7 @@ export default function Sidebar() {
       </div>
       <div className="font-bold"> {"Events"} </div>
       <div className="flex flex-row flex-wrap bg-blue-500 text-white px-2 py-1 my-2 text-sm cursor-pointer">
-        <BroadcastMessage />
+        <BroadCastMessage />
       </div>
     </div>
   );
