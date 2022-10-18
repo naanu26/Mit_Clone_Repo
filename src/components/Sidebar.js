@@ -2,7 +2,7 @@ import React from "react";
 import Icon from "./Icon";
 import ShowMessage from "./Looks/ShowMessage";
 import HideSprite from "./Looks/HideSprite";
-import BroadCastMessage from "./Events/BroadCastMessage";
+import {BroadCastMessage} from "./Events/BroadCastMessage";
 import TurnClockwise from "./Motion/TurnClockwise";
 import TurnAntiClockWise from "./Motion/TurnAntiClockWise";
 import ShowMessageTimer from "./Looks/ShowMessageTimer";
